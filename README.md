@@ -3,7 +3,7 @@
 Mood2Emoji is a friendly Streamlit app that reads short student messages and replies with 😃 😐 😞. It blocks the use of harsh language, calms ALL CAPS shouting, and adds simple rule hints so results make sense to Codingal learners aged 12–16.
 
 ## Live Demo
-- Streamlit: _Add your deployed link here_
+- Streamlit: https://mood-emoji.streamlit.app/
 
 ## How It Works
 1. **Safety check:** Spot bad words or ALL CAPS and replace them with a neutral reminder.
