@@ -5,6 +5,8 @@ Mood2Emoji is a friendly Streamlit app that reads short student messages and rep
 ## Live Demo
 - Streamlit: https://mood-emoji.streamlit.app/
 
+![Screenshot of Mood2Emoji interface](Example.png)
+
 ## How It Works
 1. **Safety check:** Spot bad words or ALL CAPS and replace them with a neutral reminder.
 2. **Rule hints:** Catch obvious mood words (e.g., “happy”, “sad”) for instant feedback.
