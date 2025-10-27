@@ -1,11 +1,15 @@
 # Mood2Emoji — Kid-Safe Text Mood Detector 😎
 
-Mood2Emoji is a friendly Streamlit app that reads short student messages and replies with 😃 😐 😞. It blocks the use of harsh language and calms all-caps shouting. Perfect for Codingal learners aged 12–16.
+Mood2Emoji is a friendly Streamlit app that reads short student messages and replies with 😃 😐 😞. It blocks the use of harsh language, calms ALL CAPS shouting, and adds simple rule hints so results make sense to Codingal learners aged 12–16.
+
+## Live Demo
+- Streamlit: _Add your deployed link here_
 
 ## How It Works
-1. **Safety check:** Spot bad words or ALL CAPS and replace them with a neutral response.
-2. **Sentiment score:** Use TextBlob to decide if the message feels positive, neutral, or negative.
-3. **Emoji response:** Show a matching emoji plus a one-line explanation; Teacher Mode also reveals a Graphviz flow chart.
+1. **Safety check:** Spot bad words or ALL CAPS and replace them with a neutral reminder.
+2. **Rule hints:** Catch obvious mood words (e.g., “happy”, “sad”) for instant feedback.
+3. **Sentiment score:** Use TextBlob only when the rules are unsure.
+4. **Emoji response:** Show a matching emoji plus a one-line explanation; Teacher Mode also reveals a Graphviz flow chart.
 
 ## Setup Instructions
 ```bash
@@ -22,10 +26,12 @@ streamlit run app.py
 | 45–55 min | Toggle Teacher Mode to show the flow chart. | Sketch their own decision flow on paper. |
 | 55–60 min | Recap AI ethics and real-world uses. | Reflect on what surprised them and share one improvement idea. |
 
+**Optional take-home:** Ask students to add one extra “clue word” to the rules and test how it changes the emoji.
+
 ## Safety Features
 - Blocks common bad words and swaps them for a calm message.
 - Softens shouting by lowering the tone and showing 😐 instead.
-- Falls back to neutral when the mood is unclear.
+- Uses rule hints plus TextBlob so tricky texts still fall back to neutral when unclear.
 
 ## Learning Outcomes
 - Understand how simple sentiment analysis works with Python.
